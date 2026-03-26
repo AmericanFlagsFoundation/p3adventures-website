@@ -42,7 +42,7 @@ export default function ContactPage() {
                   <label className="block text-sm font-medium text-gray-700 mb-1">
                     First Name
                   </label>
-                  <input type="text" className="input-field" placeholder="Jamie" />
+                  <input type="text" className="input-field" placeholder="Carrie" />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-1">

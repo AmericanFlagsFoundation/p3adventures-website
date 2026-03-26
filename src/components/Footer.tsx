@@ -50,7 +50,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 border-t border-ocean-800 pt-6 text-center text-xs text-gray-500">
-          <p>&copy; {year} P3 Adventures. All rights reserved.</p>
+          <p>&copy; {year} P3 Adventures. All rights reserved. | Carrie Lewis</p>
           <p className="mt-1 text-ocean-300 font-medium">Explore the Extraordinary</p>
         </div>
       </div>
