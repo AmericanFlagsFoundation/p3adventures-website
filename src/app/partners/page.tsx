@@ -37,6 +37,11 @@ const partners = [
         url: "https://www.hollandamerica.com",
         desc: "Classic cruising with immersive destination experiences and cultural programming.",
       },
+      {
+        name: "Viking Cruises",
+        url: "https://www.vikingcruises.com/oceans",
+        desc: "One of our personal favorites — small ships, no casinos, no kids, just incredible destinations and world-class enrichment.",
+      },
     ],
   },
   {
