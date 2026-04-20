@@ -36,7 +36,7 @@ export function getAllPosts(): PostMeta[] {
     return {
       slug,
       title: (data.title as string) || slug,
-      date: (data.date as string) || "",
+      date: data.date instanceof Date ? data.date.toISOString().split("T")[0] : String(data.date || ""),
       excerpt: (data.excerpt as string) || "",
       category: (data.category as string) || "",
       image: (data.image as string) || "",
@@ -57,7 +57,7 @@ export function getPostBySlug(slug: string): Post | null {
   return {
     slug,
     title: (data.title as string) || slug,
-    date: (data.date as string) || "",
+    date: data.date instanceof Date ? data.date.toISOString().split("T")[0] : String(data.date || ""),
     excerpt: (data.excerpt as string) || "",
     category: (data.category as string) || "",
     image: (data.image as string) || "",
